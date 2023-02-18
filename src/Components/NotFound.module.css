@@ -1,0 +1,8 @@
+.notfound {
+  display: grid;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  height: 50vh;
+  background: url('../Assets/erro404.jpg') no-repeat center center;
+  background-size: contain;
+}
