@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+Projeto Adote um Amigo
+O projeto Adote um Amigo foi desenvolvido durante os videos de Nodejs do professor Matheus Battisti. Este projeto tem como objetivo simular a disponibilidade, e por fim, a adoção de Pets , especialmente cães e gatos.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recursos do App
+Registo, login e logout de usuário;
+Edição de usuário, após login;
+Registro, edição e exclusão de Pet, após autenticação;
+A edição ou exclusão só pode ser feita pelo dono do Pet;
+Simulação de solicitação de Adoção por usuários que não sejam donos do Pet, após autenticação;
+O usuário dono do Pet deve aceitar a solicitação de adoção, após autenticação.
+Tecnologias
+Front-end
+Reactjs;
+Componentes estilizados;
+API de Hooks e Context;
+Axios para o consumo da API Rest desenvolvida no Backend;
+Ícones de reação.
+Prints do App (Versão Desktop)
+Páginas que não precisam de login
+Página inicial
+Página para visualizar Pet
+Página de registro-se
+Página de login
+Páginas que precisam de autenticação
+Página de Pets do usuário
+Página de adoções do usuário
+Página de edição de Pet
+Página de edição do usuário
+Configuração do projeto
+Banco de dados MongoDB, crie uma conevxão com o nome getapet
+crie duas collections - pets e users
+No backend, pelo terminal do Vscod digite
+ * npm install 
+ * npm start, espere o banco se conectar 
+No frontend , pelo terminal do Vscod digite
+ * npm install 
+ * npm start, espere o seu navegador padrão iniciar
+Gostaria de ver o repositório do Backend deste app? Clique aqui
 
-## Available Scripts
+Obrigado a todos.
 
-In the project directory, you can run:
+Marcos Aurélio Leonel
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/aurelioleonel
+https://www.linkedin.com/in/aurelioleonel/
