@@ -1,45 +1,37 @@
-Projeto Adote um Amigo
-O projeto Adote um Amigo foi desenvolvido durante os videos de Nodejs do professor Matheus Battisti. Este projeto tem como objetivo simular a disponibilidade, e por fim, a adoção de Pets , especialmente cães e gatos.
+##  Projeto Amigo Pet
+O projeto **Amigo Pet** foi desenvolvido durante os videos de JavaScript com React da Origamid.
+Este projeto é uma rede social para seu amigo de estimação.
 
-Recursos do App
-Registo, login e logout de usuário;
-Edição de usuário, após login;
-Registro, edição e exclusão de Pet, após autenticação;
-A edição ou exclusão só pode ser feita pelo dono do Pet;
-Simulação de solicitação de Adoção por usuários que não sejam donos do Pet, após autenticação;
-O usuário dono do Pet deve aceitar a solicitação de adoção, após autenticação.
-Tecnologias
-Front-end
-Reactjs;
-Componentes estilizados;
-API de Hooks e Context;
-Axios para o consumo da API Rest desenvolvida no Backend;
-Ícones de reação.
-Prints do App (Versão Desktop)
-Páginas que não precisam de login
-Página inicial
-Página para visualizar Pet
-Página de registro-se
-Página de login
-Páginas que precisam de autenticação
-Página de Pets do usuário
-Página de adoções do usuário
-Página de edição de Pet
-Página de edição do usuário
-Configuração do projeto
-Banco de dados MongoDB, crie uma conevxão com o nome getapet
-crie duas collections - pets e users
-No backend, pelo terminal do Vscod digite
- * npm install 
- * npm start, espere o banco se conectar 
-No frontend , pelo terminal do Vscod digite
- * npm install 
- * npm start, espere o seu navegador padrão iniciar
-Gostaria de ver o repositório do Backend deste app? Clique aqui
+###  Recursos do App
+* Registo, login e logout de usuário;
+* Registro, edição e exclusão de Pet, após autenticação;
+* A edição ou exclusão só pode ser feita pelo dono do Pet;
+* vc pode comentar fotos de Pet's de outros usuários;
+
+###  Tecnologias 
+####  Front-end
+* Reactjs;
+* Componentes estilizados;
+* API de Hooks e Context;
+* Axios para o consumo da API Rest desenvolvida no Backend;
+* Ícones de reação.
+
+####  Back-end
+API = "https://dogsapi.origamid.dev/json";
+   * O autor dessa api limitou as postagem por apenas 10 minutos
+acredito pela quantidade de paricipantes do curso.
+Caso vc não veja mais as suas postagens, é porque o
+tempo expirou. Somente as fotos do autor da API é que ficam permanentes.
+  * Usuario e senha padrão = dog.
+  * 
+### No frontend , pelo terminal do Vscod digite
+     * npm install 
+     * npm start, espere o seu navegador padrão iniciar
+
 
 Obrigado a todos.
 
 Marcos Aurélio Leonel
-
-https://github.com/aurelioleonel
-https://www.linkedin.com/in/aurelioleonel/
+  * https://github.com/aurelioleonel
+  * https://www.linkedin.com/in/aurelioleonel/
+  
